@@ -1,0 +1,50 @@
+
+body {
+    margin: 0;
+    font-family: 'Helvetica Neue', sans-serif;
+    background-color: #f9f9f9;
+    color: #111;
+}
+
+header {
+    text-align: center;
+    padding: 3rem 1rem;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+.projects {
+    padding: 2rem;
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.project img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.desc {
+    max-width: 600px;
+    margin-top: 1rem;
+}
+
+footer {
+    text-align: center;
+    padding: 2rem;
+    font-size: 0.875rem;
+    background-color: #fff;
+    margin-top: 2rem;
+}
